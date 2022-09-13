@@ -3,6 +3,9 @@
     --primary-color: #2947A9;
     --secondary-color: #292E3D;
 }
+html{
+    scroll-behavior: smooth;
+}
 @media screen and (max-width:661px) {
     body{
         margin-left: 0;
@@ -20,6 +23,10 @@
     }
     nav{
         padding: 0 !important;
+    }
+    nav a{
+        text-decoration: none;
+        color: inherit;
     }
     nav ul{
         width: 600px;
