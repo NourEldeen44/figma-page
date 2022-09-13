@@ -28,6 +28,7 @@
     }
     header .logo{
         padding-left: 15px !important;
+        cursor: pointer;
     }
     
 }
@@ -363,6 +364,7 @@ nav ul a li:hover {
     font-size: 14.63px;
     font-weight: 500;
     letter-spacing: .3px;
+    cursor: pointer;
 }
 .services .white{
     background-color: white;
@@ -646,6 +648,7 @@ text-decoration: underline;
     color: white;
     border: 1px white solid;
     padding: 11px 14px;
+    cursor: pointer;
 } 
 @media screen and (max-width: 992px) {
     .consultation .content {
@@ -751,6 +754,9 @@ display: inline-flex;
 .message-form form .message input{
     width: 100%;
     height:98px ;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+
 }
 .message-form form .message input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     position: absolute;
@@ -769,6 +775,7 @@ display: inline-flex;
     font-size: 13.17px;
     font-weight: 500;
     height: 38px;
+    cursor: pointer;
 }
 @media screen and (max-width:850px) {
     .message-form form .half-inputs{
