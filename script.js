@@ -55,6 +55,7 @@ await fetch("https://ipapi.co/json/").then((res) => {
       if (res.data() != null) {
         updateDoc(docRef, {
           visits: res.data()["visits"] + 1,
+          lastVisitUTC: new Date().toUTCString(),
           ...val,
         })
           .then(
@@ -70,6 +71,7 @@ await fetch("https://ipapi.co/json/").then((res) => {
       } else {
         setDoc(docRef, {
           visits: 1,
+          lastVisitUTC: new Date().toUTCString(),
           ...val,
           //   lastVisit: new Date().toUTCString(),
         })

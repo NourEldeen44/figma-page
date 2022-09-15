@@ -24,10 +24,6 @@ html{
     nav{
         padding: 0 !important;
     }
-    nav a{
-        text-decoration: none;
-        color: inherit;
-    }
     nav ul{
         width: 600px;
         padding-right: 15px !important;
@@ -71,6 +67,10 @@ nav{
 nav .nav-contact{
     font-weight: bold;
     color: #F9995D;
+}
+nav a{
+    text-decoration: none;
+    color: inherit;
 }
 nav ul {
     width: 35vw;
